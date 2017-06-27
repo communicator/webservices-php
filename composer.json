@@ -3,11 +3,11 @@
     "description": "Communicator Web Services client for PHP",
     "license": "Proprietary",
     "type": "Library",
+	"homepage": "http://communicatorcorp.com",
     "authors": [
         {
-            "name": "Daniel Morris",
-            "email": "daniel@rippleffect.com",
-            "role": "Programmer"
+            "name": "Communicator",
+            "email": "support@communicatorcorp.com"
         }
     ],
     "require": {
