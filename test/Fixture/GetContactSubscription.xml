@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetContactSubscriptionResponse xmlns="http://ws.communicatorcorp.com/">
+            <GetContactSubscriptionResult>
+                <MailingListId>1</MailingListId>
+                <IsSubscribed>true</IsSubscribed>
+                <DateLastAction>2015-04-20T16:20:00.000</DateLastAction>
+                <SubscriptionSourceType>ManualEntry</SubscriptionSourceType>
+            </GetContactSubscriptionResult>
+        </GetContactSubscriptionResponse>
+    </soap:Body>
+</soap:Envelope>

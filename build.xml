@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="communicatorcorp/client-php" default="build">
+    <property name="basedir" value="." />
+
+    <target name="build" depends="phpcs, phpunit" />
+
+    <target name="phpunit" description="Run unit tests">
+        <exec executable="${basedir}/vendor/bin/phpunit" failonerror="true">
+            <arg value="--coverage-html" />
+            <arg path="${basedir}/build/coverage" />
+        </exec>
+    </target>
+
+    <target name="phpcs" description="Run coding standards checks">
+        <exec executable="${basedir}/vendor/bin/phpcs">
+            <arg value="-p" />
+            <arg value="--extensions=php" />
+            <arg value="--standard=PSR2" />
+            <arg path="${basedir}/src" />
+            <arg path="${basedir}/test" />
+        </exec>
+    </target>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetClientTableColumnsResponse xmlns="http://ws.communicatorcorp.com/">
+            <GetClientTableColumnsResult>
+                <ClientTableColumn>
+                    <Id>1</Id>
+                    <Name>First</Name>
+                    <MailingType xsi:nil="true"/>
+                    <DataType>Text</DataType>
+                </ClientTableColumn>
+                <ClientTableColumn>
+                    <Id>2</Id>
+                    <Name>Second</Name>
+                    <IsLinkColumn>true</IsLinkColumn>
+                    <MailingType xsi:nil="true"/>
+                    <DataType>Text</DataType>
+                </ClientTableColumn>
+            </GetClientTableColumnsResult>
+        </GetClientTableColumnsResponse>
+    </soap:Body>
+</soap:Envelope>

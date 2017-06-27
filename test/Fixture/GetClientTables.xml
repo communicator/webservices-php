@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetClientTablesResponse xmlns="http://ws.communicatorcorp.com/">
+            <GetClientTablesResult>
+                <ClientTable>
+                    <Id>1</Id>
+                    <Name>First</Name>
+                    <Description>First description.</Description>
+                    <TableType>Data</TableType>
+                </ClientTable>
+                <ClientTable>
+                    <Id>2</Id>
+                    <Name>Second</Name>
+                    <Description>Second description.</Description>
+                    <TableType>Lookup</TableType>
+                </ClientTable>
+                <ClientTable>
+                    <Id>3</Id>
+                    <Name>Third</Name>
+                    <Description>Third description.</Description>
+                    <TableType>Data</TableType>
+                </ClientTable>
+                <ClientTable>
+                    <Id>4</Id>
+                    <Name>Fourth</Name>
+                    <Description>Fourth description.</Description>
+                    <TableType>Contact</TableType>
+                </ClientTable>
+            </GetClientTablesResult>
+        </GetClientTablesResponse>
+    </soap:Body>
+</soap:Envelope>

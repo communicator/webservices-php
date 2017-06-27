@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetMailingListsResponse xmlns="http://ws.communicatorcorp.com/">
+            <GetMailingListsResult>
+                <MailingList>
+                    <Id>1</Id>
+                    <Name>First</Name>
+                    <Description>First description.</Description>
+                    <ContactTableId>1</ContactTableId>
+                    <MailingListType>Email</MailingListType>
+                    <SubscriptionType>SingleOptIn</SubscriptionType>
+                    <FromAddressId>1</FromAddressId>
+                    <FromName>Company</FromName>
+                    <ExternalUnsubscribeLink/>
+                </MailingList>
+                <MailingList>
+                    <Id>2</Id>
+                    <Name>Second</Name>
+                    <Description>Second description.</Description>
+                    <ContactTableId>2</ContactTableId>
+                    <MailingListType>Email</MailingListType>
+                    <SubscriptionType>SingleOptIn</SubscriptionType>
+                    <FromAddressId>2</FromAddressId>
+                    <FromName>Company</FromName>
+                    <ExternalUnsubscribeLink/>
+                </MailingList>
+            </GetMailingListsResult>
+        </GetMailingListsResponse>
+    </soap:Body>
+</soap:Envelope>
