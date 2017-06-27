@@ -1,4 +1,4 @@
-# Communicator client
+# Communicator Web Services - PHP
 
 ## Requirements
 
@@ -6,5 +6,5 @@
 
 ## License
 
-Copyright © 2015 [Rippleffect Studio Ltd](http://www.rippleffect.com)  
+Copyright © 2015 [Rippleffect Studio Ltd](http://www.rippleffect.com)
 Rights reserved.
