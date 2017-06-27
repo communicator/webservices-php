@@ -2,7 +2,6 @@
     "name": "communicator/webservices-php",
     "description": "Communicator Web Services client for PHP",
     "license": "Proprietary",
-    "version": "1.0.0",
     "type": "Library",
     "authors": [
         {
