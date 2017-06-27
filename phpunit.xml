@@ -5,7 +5,7 @@
          bootstrap="vendor/autoload.php"
          colors="true">
     <testsuites>
-        <testsuite name="communicatorcorp/client-php">
+        <testsuite name="communicator/webservices-php">
             <directory suffix="Test.php">test</directory>
         </testsuite>
     </testsuites>

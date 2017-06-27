@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project name="communicatorcorp/client-php" default="build">
+<project name="communicator/webservices-php" default="build">
     <property name="basedir" value="." />
 
     <target name="build" depends="phpcs, phpunit" />
